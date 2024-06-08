@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipin Fitness</title>
+</head>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=RocknRoll+One&display=swap">
+<style>
+    body {
+        font-family: 'RocknRoll One', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/man.jpg');
+        height: 200px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        height: 80px;
+        width: 110px;
+        filter: invert();
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(237, 225, 5);
+    }
+
+    .btn {
+        font-family: 'RocknRoll One', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid rgb(14, 14, 15);
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: aqua;
+    }
+
+    .container {
+        padding: 50px 80px;
+        width: 34%;
+        border-radius: 28px;
+
+    }
+
+    .form-group input {
+        font-family: 'RocknRoll One', sans-serif;
+        text-align: center;
+        display: block;
+        width: 473px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 100px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 408%;
+    }
+
+    .container button {
+        display: block;
+        width: 91%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logo.jpg" alt="gym">
+            <div>Vipin Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Complete Daily
+            Workout At Gym</h1>
+        <p>join the best gym of mumbai now, The only person you are destined to become is the person you decide to be,
+            Once you learn to quit, it becomes a habit.</p>
+        <button class="btn">Get Started Now</button>
+    </div>
+</body>
+
+</html>
